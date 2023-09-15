@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <title>Sign Out</title>
+</head>
+
+<body>
+    <div>
+        <h1>DinnerOrder</h1>
+        <p>Are you sure you want to sign out?</p>
+        <button id="signOutButton">Sign Out</button>
+    </div>
+
+    <script>
+        document.getElementById("signOutButton").addEventListener("click", function() {
+            window.location.href = "signin.html";
+        });
+    </script>
+</body>
+</html>
